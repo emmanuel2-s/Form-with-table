@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript</title>
+  </head>
+<style>
+    .form-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        margin: 10px;
+    }
+</style>
+
+  <body>
+    <h1>thishhhfjdfhb</h1>
+
+    <form class="form-details" onsubmit="formSubmit()">
+      <labe>Name: <input type="text"  id="fname"/></labe>
+      <labe>Email: <input type="email" id="email"/></labe>
+      <labe>Gender <input type="text" id="gender"/></labe>
+      <labe>Phone No <input type="tel" id="phone"/></labe>
+      <labe>Country <input type="text" id="country"/></labe>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div>
+      <table id="table">
+        <thead>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Phone No </th>
+          <th>Country</th>
+        </thead>
+
+        <tbody id="tbdy"></tbody>
+      </table>
+    </div>
+    <script src="hpp.js"></script>
+  </body>
+</html>
